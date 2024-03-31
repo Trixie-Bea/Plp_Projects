@@ -1,0 +1,6 @@
+My name is Beatrice
+I like Python!
+I was born in 2000
+I like watching movies.
+I like to read books.
+I also like the colour purple.
