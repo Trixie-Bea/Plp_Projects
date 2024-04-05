@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(222, 222, 235);
+
+}
+
+.title_header {
+    background-color: rgb(150, 99, 192);
+    padding: 1%;
+    font-size: 20px;
+
+
+
+}
+
+.Introduction_heading {
+    background-color: rgb(187, 183, 211);
+    margin-top: 20px;
+    padding-left: 1%;
+}
+
+.Introduction_p {
+    font-size: 20px;
+    font-weight: 200;
+    text-decoration: none;
+
+}
+
+
+.skills_heading {
+    background-color: rgb(187, 183, 211);
+    padding-bottom: 0%;
+    text-decoration: underline;
+}
+
+.skills_lists {
+    font-size: 20px;
+    font-weight: 100;
+    padding-top: 0%;
+    padding-left: 1%;
+
+}
+
+.contact_info {
+    background-color: rgb(187, 183, 211);
+    padding: 0px;
+    font-size: 24px;
+    font-style: oblique;
+}
+
+.contact_p {
+    font-size: 100%;
+    padding: 0px;
+
+}
+
+@media screen and(max-width:768px) {
+
+    .title_header,
+    .Introduction,
+    .skills,
+    .skills_heading,
+    .contact {
+        padding: 10px;
+    }
+}
