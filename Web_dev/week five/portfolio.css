@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: antiquewhite;
+}
+
+body header {
+    background-color: black;
+    margin-left: 10px;
+    font-size: medium;
+    padding: 10px;
+    color: rgb(126, 19, 126);
+    text-align: center;
+    font-size: 30px;
+
+}
+
+nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+nav img {
+    width: 45%;
+    height: 80%;
+    bottom: 0;
+    right: 100px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-style: italic;
+}
+
+main {
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+footer p {
+    margin: 5%;
+    text-align: center;
+    background-color: darkgray;
+    padding: 20px;
+}
+
+section p {
+    margin-bottom: 20px;
+    font-size: 20px;
+
+}
+
+.my_projects {
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+ol li {
+    margin-bottom: 3px;
+    font-size: 100%;
+}
+
+.skills {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+.skills ul li {
+    font-size: 100%;
+    margin-bottom: 3px;
+}
+
+main h2 {
+    text-decoration: underline;
+}
+
+.contacts {
+    line-height: 50px;
+    margin-bottom: 3px;
+}
+
+@media all and (max-width:768px) {}
